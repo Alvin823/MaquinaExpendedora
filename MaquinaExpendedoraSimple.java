@@ -60,6 +60,10 @@
     public void introducirPrecio(int cantidadIntroducida){
             precioBillete = cantidadIntroducida;
     }
+    
+    public void reducirPrecio(int cantidadIntroducida){
+            precioBillete= precioBillete - cantidadIntroducida;
+    }
 
     /**
      * Imprime un billete para el cliente actual
