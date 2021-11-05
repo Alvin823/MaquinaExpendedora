@@ -61,7 +61,7 @@
             precioBillete = cantidadIntroducida;
     }
     
-    public void vaciarDepositoDinero(String retirar){
+    public void vaciarDepositoDinero(){
             totalDineroAcumulado = 0;
         
     }
